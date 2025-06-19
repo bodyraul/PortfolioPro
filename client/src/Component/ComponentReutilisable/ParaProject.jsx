@@ -26,7 +26,7 @@ export default function ParaProject({source,titre,contenu,number}) {
     return (
     <div  className={classref.current} >
         <img style={{boxShadow:"   0 40px 60px -6px black"}} className='mb-[35px] ' src={source} alt="" />
-        <p className='sup1400:text-[35px] sup968:text-[30px] text-[25px] font-bold opacity-[0.9] mb-[30px] '> {titre} </p>
+        <p className=' sup1400:text-[35px] sup968:text-[30px] text-[25px] font-bold opacity-[0.9] mb-[30px] '> {titre} </p>
         <p className='sup1400:text-[25px] sup968:text-[20px] text-[15px] opacity-[0.8] mb-[30px] '>{contenu} </p>
     </div>
   )
