@@ -1,9 +1,9 @@
 import React from 'react'
 import bird from "../Asset/Img/bird.png"
-import ParaLabelInputUn from './ComponentReutilisable/ParaLabelInputUn'
-import ParaLabelInputDeux from './ComponentReutilisable/ParaLabelInputDeux'
-import ImgContact from './ComponentReutilisable/ImgContact'
-import Titre from './ComponentReutilisable/Titre'
+import ParaLabelInputUn from '../ComponentsReutilisables/ContactComponent/ParaLabelInputUn'
+import ParaLabelInputDeux from '../ComponentsReutilisables/ContactComponent/ParaLabelInputDeux'
+import ImgContact from '../ComponentsReutilisables/ContactComponent/ImgContact'
+import Titre from '../ComponentsReutilisables/GlobalComponent/Titre'
 
 export default function Contact() {
   return (

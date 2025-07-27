@@ -1,7 +1,7 @@
 import React from 'react'
-import Titre from './ComponentReutilisable/Titre'
+import Titre from '../ComponentsReutilisables/GlobalComponent/Titre'
 import company from "../Asset/Img/company.jpg"
-import ParaProject from './ComponentReutilisable/ParaProject'
+import ParaProject from '../ComponentsReutilisables/ProjectComponent/ParaProject'
 import collection  from"../Asset/Img/collection.jpg"
 import forum  from"../Asset/Img/forum.jpg"
 
