@@ -1,5 +1,5 @@
 .ApparitionProjet{
-  animation: ApparitionProjet 0.5s forwards ease-out;
+  animation: ApparitionProjet 0.3s forwards ease-out;
 }
 
 @keyframes ApparitionProjet {
@@ -20,7 +20,7 @@
 }
 
 .disparitionProjet{
-  animation: disparitionProjet 0.5s forwards ease-out;
+  animation: disparitionProjet 0.3s forwards ease-out;
 }
 
 @keyframes disparitionProjet {
@@ -42,7 +42,7 @@
 }
 
 .ApparitionBtnProjet{
-  animation: ApparitionBtnProjet 0.5s forwards  ease-out;
+  animation: ApparitionBtnProjet 0.3s forwards  ease-out;
 }
 
 @keyframes ApparitionBtnProjet {
@@ -58,7 +58,7 @@
 }
 
 .DisparitionBtnProjet{
-  animation: DisparitionBtnProjet 0.5s forwards  ease-out;
+  animation: DisparitionBtnProjet 0.3s forwards  ease-out;
 }
 
 @keyframes DisparitionBtnProjet {

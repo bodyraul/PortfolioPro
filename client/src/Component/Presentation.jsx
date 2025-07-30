@@ -1,24 +1,31 @@
 import React from 'react'
+import gps from '../Asset/Img/gps.png'
+import voiture from '../Asset/Img/voiture.png'
 
 
 export default function Presentation() {
   return (
-    <div className='presention w-full bg-belge pt-[250px] pb-[150px] '>
-       <div className='sup1400:flex-row sup968:w-[80%] w-full flex flex-col items-center justify-between my-0 m-auto'>
-          <div className='sup1400:w-[40%] sup968:w-full w-[90%] max-w-[650px]'>
-            <div className='py-[60px] '>
-              <p className='sup1400:text-[35px] sup968:text-[30px] font-bold text-[20px] '>Front-end React developer</p>
-              <p className='sup1400:leading-8 sup1400:text-[18px] sup968:text-[16px] sup968:leading-7 text-[12px] py-[15px] leading-6 font-extralight'>Passionate about web development, I love designing dynamic and intuitive interfaces with React.js, combining performance, modularity, and innovation to deliver modern and engaging user experiences.</p>
-            </div>
-            <div  className='py-[60px]  '>
-              <p className='sup1400:text-[35px] sup968:text-[30px] font-bold text-[20px] '>What I am looking for?</p>
-              <p className='sup1400:leading-8 sup1400:text-[18px] sup968:text-[16px] sup968:leading-7 text-[12px] py-[15px] leading-6 font-extralight'>I am looking for a challenging web developer position, surrounded by experienced colleagues, where I can continue to learn, while progressing within a company that offers real opportunities for advancement and professional development.</p>
-            </div>
-          </div>
-          <div className='sup1400:w-[40%] rounded-3xl border border-solid border-red-400 w-[80%] h-[800px] bg-white max-w-[650px]'>
+    <div className='presention sup1400:py-[150px] w-full bg-belge py-[120px] my-0 mx-auto'>
+      <div className='sup1400:mt-[150px] sup968:mt-[120px] sup750:flex sup750:flex-row-reverse sup750:justify-between sup750:items-start mt-[80px] w-[80%]  mx-auto border-l-[3px] border-l-[black] pl-[20px] max-w-[1400px]'>
+        <p className='sup1400:h-[200px] sup1400:w-[200px] sup750:mb-0 w-[140px] h-[140px] border-[2px] border-solid border-black rounded-full mb-[50px]'>
           
-          </div>
-       </div>
+        </p>
+        <div>
+            <p className='sup1400:text-[70px] sup968:text-[50px] text-[30px] font-black pb-[10px] '>Peria Aurelien</p>
+            <p className='sup1400:text-[35px] sup968:text-[30px]  text-[20px] font-bold pb-[10px] ' >Front-end Developer</p>
+            <p className='sup1400:text-[25px] sup968:text-[20px]  text-[12px] pb-[10px] '>I am looking for professional experience</p>
+            <div className='sup1400:text-[25px] sup968:flex-row sup968:text-[20px] text-[12px] pb-[10px] flex flex-col'>
+              <p className='sup1400:pr-[50px] sup968:pr-[30px] sup968:pb-0 flex items-center pb-[10px] '>
+                <img className='h-[20px] mr-[15px]' src={gps} alt="" />
+                <span>France, Sannois</span>
+              </p>
+              <p className='sup1400:pr-[50px] sup968:pr-[30px] sup968:pb-0 flex items-center pb-[10px] '>
+                <img className='h-[20px] mr-[15px]'  src={voiture} alt="" />
+                <span>Open to mobility</span>
+              </p>
+            </div>
+        </div>
+      </div>
     </div>
   )
 }
