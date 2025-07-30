@@ -1,4 +1,5 @@
 import React from 'react'
+import { useRef } from 'react'
 import bird from "../Asset/Img/bird.png"
 import ParaLabelInputUn from '../ComponentsReutilisables/ContactComponent/ParaLabelInputUn'
 import ParaLabelInputDeux from '../ComponentsReutilisables/ContactComponent/ParaLabelInputDeux'
@@ -6,6 +7,9 @@ import ImgContact from '../ComponentsReutilisables/ContactComponent/ImgContact'
 import Titre from '../ComponentsReutilisables/GlobalComponent/Titre'
 
 export default function Contact() {
+
+  const btnref=useRef("");
+
   return (
     <div className='contact  bg-noir'>
       <Titre  color="text-white" contenu="Contact"></Titre>
@@ -15,9 +19,9 @@ export default function Contact() {
                 <ParaLabelInputUn placeholder="Name Surname" label="Name"></ParaLabelInputUn>
                 <ParaLabelInputUn placeholder="Name@gmail.com" label="Mail"></ParaLabelInputUn>
             </div>
-            <ParaLabelInputDeux boolean="true" label="Objet" input="Meeting, Project" ></ParaLabelInputDeux>
+            <ParaLabelInputDeux boolean="true" label="Object" input="Meeting, Project" ></ParaLabelInputDeux>
             <ParaLabelInputDeux boolean="false" label="Message" input="Hello, may i contact you for..."></ParaLabelInputDeux>
-            <button className='sup1400:text-[40px] text-white text-[25px] w-[100%]  border-[2px] border-solid border-white rounded-[25px] pb-[15px]  '> Validation </button>
+            <button ref={btnref} className='sup1400:text-[40px] text-white text-[25px] w-[100%]  border-[2px] border-solid border-white rounded-[25px] py-[15px]  transition-all duration-300 ease-in hover:border-[2px] hover:border-black hover:bg-white hover:text-black'> Validation </button>
         </div>
         <div className="sup968:w-[45%] sup968:flex sup968:flex-col sup968:items-center sup968:max-w-[700px]   ">
             <p className='sup1400:text-[90px]  sup968:text-[60px] text-white text-[40px] pb-[100px] '>

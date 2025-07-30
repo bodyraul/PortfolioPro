@@ -1,0 +1,95 @@
+.ApparitionProjet{
+  animation: ApparitionProjet 0.5s forwards ease-out;
+}
+
+@keyframes ApparitionProjet {
+  0% {
+    transform: scale(0.3);
+    border-radius: 100%;
+    opacity: 0;
+  }
+   
+  40%{
+    opacity: 0.3;
+  }
+
+  100% {
+    transform: scale(1);
+    border-radius: 0%;
+  }
+}
+
+.disparitionProjet{
+  animation: disparitionProjet 0.5s forwards ease-out;
+}
+
+@keyframes disparitionProjet {
+  0% {
+    transform: scale(1);
+    border-radius: 0%;
+    opacity: 0.3;
+  }
+
+  40%{
+    opacity: 0.3;
+  }
+
+  to {
+    transform: scale(0.3);
+    border-radius: 100%;
+    opacity: 0;
+  }
+}
+
+.ApparitionBtnProjet{
+  animation: ApparitionBtnProjet 0.5s forwards  ease-out;
+}
+
+@keyframes ApparitionBtnProjet {
+  0% {
+    left: 70%;
+    opacity: 0;
+  }
+
+  100%{
+    left: 50%;
+    opacity: 0.4;
+  }
+}
+
+.DisparitionBtnProjet{
+  animation: DisparitionBtnProjet 0.5s forwards  ease-out;
+}
+
+@keyframes DisparitionBtnProjet {
+  0% {
+    left: 50%;
+    opacity: 0.4;
+  }
+
+  40%{
+    left: 70%;
+    opacity: 0;
+  }
+
+  100% {
+     left: 70%;
+    opacity: 0;
+  }
+}
+
+.btnProjetHover{
+  animation: btnProjetHover 0.2s forwards ease-out;
+}
+
+@keyframes btnProjetHover {
+  0% {
+    border: 1px;
+    transform: scale(1);
+  }
+
+  100% {
+     border:2px;
+     transform: scale(1.2);
+  }
+}
