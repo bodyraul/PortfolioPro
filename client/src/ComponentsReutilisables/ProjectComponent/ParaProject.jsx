@@ -3,7 +3,8 @@ import { useRef } from "react"
 import onMouseEnterProjet from "../../fonction/projetFonction/OnMouseEnterProjet";
 import onMouseLeaveProjet from "../../fonction/projetFonction/OnMouseLeaveProjet";
 
-export default function ParaProject({source,titre,contenu,number}) {
+
+export default function ParaProject({source,titre,contenu,number,srcImg}) {
     const paraInvisible = useRef("");
     const btnProjet=useRef("");
 
@@ -18,8 +19,18 @@ export default function ParaProject({source,titre,contenu,number}) {
               watch
           </button>
         </div>
-        <p className=' sup1400:text-[35px] sup968:text-[30px] text-[20px] font-bold opacity-[0.9] mb-[30px] '> {titre} </p>
-        <p className='sup1400:text-[25px] sup968:text-[20px] text-[12px] opacity-[0.8] mb-[30px] '>{contenu} </p>
+        <p className="mb-[20px] flex">
+          {
+            srcImg.map((item,index)=>{
+              return(
+                <img key={index} className="h-[30px] mr-[15px]" src={item} alt="" />
+              )
+            })
+          }
+          
+        </p>
+        <p className=' sup1400:text-[35px] sup968:text-[30px] text-[20px] font-bold opacity-[0.9] mb-[15px] '> {titre} </p>
+        <p className='sup1400:text-[25px] sup968:text-[20px] text-[12px] opacity-[0.8] mb-[15px] '>{contenu} </p>
     </div>
   )
 }

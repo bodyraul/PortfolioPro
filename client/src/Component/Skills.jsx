@@ -5,17 +5,53 @@ import tailwind from "../Asset/Img/tailwind.png"
 import node from "../Asset/Img/node.png"
 import mongodb from "../Asset/Img/mongodb.png"
 import github from "../Asset/Img/github.png"
-import figma from "../Asset/Img/figma.png"
+import fm from "../Asset/Img/fm.png"
 import ParaSkills from '../ComponentsReutilisables/SkillsComponent/ParaSkills'
 
 export default function Skills() {
   return (
     <div className=' skills bg-belge  w-full'>
       <Titre  color="text-noir" contenu=" skills"></Titre>
-      <div className='sup1400:pt-[150px] sup968:pt-[120px] sup968:flex w-[80%] items-center justify-between pt-[80px]  my-0 mx-auto max-w-[1400px] '>
-        <ParaSkills titre="Front-end" sourceUne={react} contenuUn="React" sourceDeux={tailwind} contenuDeux="Tailwind" transfromUn={"sup500:translate-x-[14px]"} transfromDeux={"sup500:translate-x-[11px]"} transfromTrois={"sup1400:translate-x-[12px]"} transfromQuatre={"sup1400:translate-x-[25px]"} pading={"pl-[30px]"} ></ParaSkills>
-        <ParaSkills titre="Back-end" sourceUne={mongodb} contenuUn="MongoDB" sourceDeux={node} contenuDeux="NodeJS" transfromUn={"sup500:translate-x-[35px]"} transfromDeux={"sup500:translate-x-[10px]"} transfromTrois={"sup1400:translate-x-[32px]"} transfromQuatre={"sup1400:translate-x-[16px]"} pading={"pl-[30px]"} ></ParaSkills>
-        <ParaSkills titre="Tools" sourceUne={github} contenuUn="Guithub" sourceDeux={figma} contenuDeux="Figma" transfromUn={"sup500:translate-x-[27px]"} transfromDeux={"sup500:translate-x-[0px]"} transfromTrois={"sup1400:translate-x-[19px]"} transfromQuatre={"sup1400:translate-x-[6px]"} pading={"pr-[30px]"} ></ParaSkills>
+      <div className='sup1400:py-[150px] sup1400:h-[1250px] sup968:h-[1000px] sup968:py-[120px] py-[80px] flex flex-col justify-evenly w-[80%] h-[600px]  my-0 mx-auto max-w-[1400px]'>
+        <div className='h-[27%] flex flex-col justify-evenly'>
+          <p className='sup1400:text-[40px]  sup968:text-[32px] text-[28px] text-noir font-medium'>
+              Front-end
+          </p>
+          <p className='sup1400:w-[160px] sup968:w-[135px] flex justify-between w-[120px] '>
+            <span className='sup1400:text-[24px]  sup968:text-[20px] text-[18px]'>React</span>
+            <img className='sup1400:w-[40px] sup968:w-[30px] w-[25px] ' src={react} alt="" />
+          </p>
+          <p className='sup1400:w-[160px]  sup968:w-[135px] flex justify-between w-[120px] '>
+            <span className='sup1400:text-[24px]  sup968:text-[20px] text-[18px]'>Tailwind</span>
+             <img className='sup1400:w-[40px]  sup968:w-[30px] w-[25px] '  src={tailwind} alt="" />
+          </p>
+        </div>
+        <div className='h-[27%] flex flex-col justify-evenly'>
+          <p className='sup1400:text-[40px]  sup968:text-[32px] text-[28px] text-noir font-medium'>
+              Back-end
+          </p>
+          <p className='sup1400:w-[160px] sup968:w-[135px] flex justify-between w-[120px] '>
+            <span className='sup1400:text-[24px]  sup968:text-[20px] text-[18px]'>Node.js</span>
+            <img className='sup1400:w-[40px] sup968:w-[30px] w-[25px] ' src={node} alt="" />
+          </p>
+          <p className='sup1400:w-[160px]  sup968:w-[135px] flex justify-between w-[120px] '>
+            <span className='sup1400:text-[24px]  sup968:text-[20px] text-[18px]'>MongoDb</span>
+             <img className='sup1400:w-[40px]  sup968:w-[30px] w-[25px] '  src={mongodb} alt="" />
+          </p>
+        </div>
+        <div className='h-[27%] flex flex-col justify-evenly'>
+          <p className='sup1400:text-[40px]  sup968:text-[32px] text-[28px] text-noir font-medium'>
+              Tools
+          </p>
+          <p className='sup1400:w-[160px] sup968:w-[135px] flex justify-between w-[120px] '>
+            <span className='sup1400:text-[24px]  sup968:text-[20px] text-[18px]'>Github</span>
+            <img className='sup1400:w-[40px] sup968:w-[30px] w-[25px] ' src={github} alt="" />
+          </p>
+          <p className='sup1400:w-[160px]  sup968:w-[135px] flex justify-between w-[120px] '>
+            <span className='sup1400:text-[24px]  sup968:text-[20px] text-[18px]'>FramerM</span>
+             <img className='sup1400:w-[40px]  sup968:w-[30px] w-[25px] '  src={fm} alt="" />
+          </p>
+        </div>
       </div>
     </div>
   )
