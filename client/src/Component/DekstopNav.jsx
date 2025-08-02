@@ -17,7 +17,7 @@ export default function DekstopNav() {
             <p></p>
             <LiNavbar>{langue==="anglais"? "Project":"Projet"}</LiNavbar>
             <LiNavbar>{langue==="anglais"? "Skills":"Compétences"}</LiNavbar>
-            <LiNavbar>{langue==="anglais"? "About":"A propos"}</LiNavbar>
+            <LiNavbar>{langue==="anglais"? "About":"Présentation"}</LiNavbar>
             <LiNavbar>{langue==="anglais"? "Contact":"Contact"}</LiNavbar>
             <p className='px-[50px] flex'>
               <img className='w-[30px] mr-[20px] transition-transform duration-150 ease-in hover:scale-125 hover:cursor-pointer' src={bird} alt="" />
