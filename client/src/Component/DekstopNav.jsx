@@ -2,14 +2,14 @@ import React from 'react'
 import LiNavbar from '../ComponentsReutilisables/NavbarComponent/LiNavbar'
 import frenchFlag from '../Asset/Img/frenchFlag.png'
 import englishFlag from '../Asset/Img/englishFlag.png'
-import bird from '../Asset/Img/birds.png'
+import linkedin from'../Asset/Img/linkdins.png';import mail from'../Asset/Img/mail.png';import github from'../Asset/Img/github.png';
 import { useContext } from 'react'
 import langueContext from '../context/LangueContext'
-
+import ImgNavbar from '../ComponentsReutilisables/navbar/ImgNavbar';
 
 export default function DekstopNav() {
   const {langue,setlangue} = useContext(langueContext);
-  
+
   return (
     <nav className='navbar fixed w-full z-40 py-[20px] '>
         <div className='w-[80%] my-0 mx-auto flex items-center justify-between'>
@@ -20,12 +20,12 @@ export default function DekstopNav() {
             <LiNavbar>{langue==="anglais"? "About":"Présentation"}</LiNavbar>
             <LiNavbar>{langue==="anglais"? "Contact":"Contact"}</LiNavbar>
             <p className='px-[50px] flex'>
-              <img className='w-[30px] mr-[20px] transition-transform duration-150 ease-in hover:scale-125 hover:cursor-pointer' src={bird} alt="" />
-              <img className='w-[30px]  mr-[20px] transition-transform duration-150 ease-in hover:scale-125 hover:cursor-pointer' src={bird} alt="" />
-              <img className='w-[30px] mr-[20px] transition-transform duration-150 ease-in hover:scale-125 hover:cursor-pointer' src={bird} alt="" />
-            </p>
-            <img onClick={()=>setlangue("francais")} className='w-[35px] mr-[20px] transition-transform duration-150 ease-in hover:scale-125 hover:cursor-pointer' src={frenchFlag} alt="" />
-            <img onClick={()=>setlangue("anglais")} className='w-[35px] mr-[20px] transition-transform duration-150 ease-in hover:scale-125 hover:cursor-pointer' src={englishFlag} alt="" />
+              <ImgNavbar onclick={()=>console.log("linkedin")} source={linkedin} alt={"image linkedin"} ></ImgNavbar>
+              <ImgNavbar onclick={()=>console.log("github")} source={github} alt={"image github"} ></ImgNavbar>
+              <ImgNavbar onclick={()=>console.log("mail")} source={mail} alt={"image boite mail"} ></ImgNavbar>
+            </p> 
+            <ImgNavbar onclick={()=>setlangue("francais")} source={frenchFlag} alt={"drapeau Français"} ></ImgNavbar>
+            <ImgNavbar onclick={()=>setlangue("anglais")} source={englishFlag} alt={"drapeau Anglais"} ></ImgNavbar>
             </div>
         </div>
     </nav>
