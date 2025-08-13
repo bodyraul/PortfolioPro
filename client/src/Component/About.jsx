@@ -11,7 +11,7 @@ export default function About() {
   return (
     <div className='bg-belge w-full'>
       <Titre  color="text-noir" contenu={langue==="anglais"? "About": "Présentation"}></Titre>
-      <div className='sup1400:pt-[150px] sup1400:pb-[110px] sup968:pt-[120px] sup968:pb-[80px] w-[80%]  max-w-[1400px] my-0 mx-auto pt-[80px] pb-[40px]'>
+      <div className='sup480:pt-[80px] sup480:pb-[50px] sup768:pt-[90px] sup768:pb-[60px] sup1024:pt-[100px] sup1024:pb-[70px] sup1600:pt-[110px] sup1600:pb-[80px] w-[80%]  max-w-[1400px] my-0 mx-auto pt-[70px] pb-[50px] '>
         <ParaAbout>
           {langue==="anglais"? tabTexteAbout.ang[0] : tabTexteAbout.fr[0]}
         </ParaAbout>

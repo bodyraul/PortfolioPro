@@ -40,7 +40,7 @@ const texteQuatreFr =(
     de sites web que je découvre, en particulier lorsqu'ils présentent une 
     <span className='text-jaune font-bold'> UI </span>
      ou une 
-     <span className='text-jaune font-bold'> UX </span>.
+     <span className='text-jaune font-bold'> UX </span>
      intéressante.
   </>
 );

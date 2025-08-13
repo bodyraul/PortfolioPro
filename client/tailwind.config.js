@@ -5,10 +5,14 @@ module.exports = {
   ],
   theme: {
     screens:{
+      "sup480":"480px",
       "sup750":"750px",
+      "sup768":"768px",
       "sup500":"500px",
       "sup968":"968px",
+      "sup1024":"1024px",
       "sup1400":"1400px",
+      "sup1600":"1600px",
     },
     extend: {
        colors:{
