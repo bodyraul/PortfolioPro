@@ -1,8 +1,8 @@
-import Project from "./Component/Project";
-import Skills from "./Component/Skills";
-import Presentation from './Component/Presentation';
-import Navbar from "./Component/Navbar";
-import About from "./Component/About";
+import Project from "./Component/projet/Project";
+import Skills from "./Component/skills/Skills";
+import Presentation from "./Component/presentation/Presentation"
+import Navbar from "./Component/nav/Navbar";
+import About from "./Component/about/About";
 import langueContext from './context/LangueContext';
 import { useState } from "react";
 
