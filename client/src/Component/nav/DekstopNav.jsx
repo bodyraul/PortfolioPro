@@ -12,10 +12,10 @@ export default function DekstopNav() {
         <div className='w-[80%] my-0 mx-auto flex items-center justify-between'>
             <div className='sup1400:text-[22px] w-full flex items-center justify-center text-[17px] '>
             <p></p>
-            <LiNavbar>{langue==="anglais"? "Project":"Projet"}</LiNavbar>
-            <LiNavbar>{langue==="anglais"? "Skills":"Compétences"}</LiNavbar>
-            <LiNavbar>{langue==="anglais"? "About":"Présentation"}</LiNavbar>
-            <LiNavbar>{langue==="anglais"? "Contact":"Contact"}</LiNavbar>
+              <LiNavbar>{langue==="anglais"? "Project":"Projet"}</LiNavbar>
+              <LiNavbar>{langue==="anglais"? "Skills":"Compétences"}</LiNavbar>
+              <LiNavbar>{langue==="anglais"? "About":"Présentation"}</LiNavbar>
+              <LiNavbar>{langue==="anglais"? "Contact":"Contact"}</LiNavbar>
             <p className='px-[50px] flex'>
               <ImgNavbar onclick={()=>console.log("linkedin")} nb={0} ></ImgNavbar>
               <ImgNavbar onclick={()=>console.log("github")} nb={1} ></ImgNavbar>

@@ -9,7 +9,7 @@ export default function MobileNav() {
                 <span>Portfolio</span>
                 <span>2025</span>
             </p>
-            <img className='w-[35px] hover:cursor-pointer ' src={hamburger} alt="" />
+            <img className='w-[20px] hover:cursor-pointer ' src={hamburger} alt="" />
         </div>
     </nav> 
   )
