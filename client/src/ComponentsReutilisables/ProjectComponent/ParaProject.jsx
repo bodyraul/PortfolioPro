@@ -2,6 +2,7 @@ import tabClassParaProjet from "../../tools/tab/tabProjet/TabClassParaProjet";
 import BigImgProjet from "../../Component/projet/BigImgProjet";
 import SmallImgProjet from '../../Component/projet/SmallImgProjet';
 import TexteProjet from '../../Component/projet/TexteProjet';
+import AccesCodeProjet from "../../Component/projet/AccesCodeProjet";
 
 export default function ParaProject({nb}) {
 
@@ -9,6 +10,7 @@ export default function ParaProject({nb}) {
     <div  className={tabClassParaProjet[nb]}>
         <BigImgProjet nb={nb} />
         <SmallImgProjet nb={nb} />
+        <AccesCodeProjet nb={nb} />
         <TexteProjet nb={nb} />
     </div>
   )

@@ -1,0 +1,2 @@
+const tabRefParaProjet=["https://github.com/bodyraul/FirstAwwwardSite","https://github.com/bodyraul/troisiemeSiteAwwward-React-FramerMotion","https://github.com/bodyraul/PokerForum/tree/master/"];
+export default tabRefParaProjet;

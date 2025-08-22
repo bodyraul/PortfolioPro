@@ -1,0 +1,2 @@
+const tabRefBtnProjet=["https://fictive-compagny-description-09708096a5e2.herokuapp.com/","https://fictive-clothing-collection-5e9bcecb3b78.herokuapp.com/","https://forum-de-poker-798cd1f8ab40.herokuapp.com/"];
+export default tabRefBtnProjet;

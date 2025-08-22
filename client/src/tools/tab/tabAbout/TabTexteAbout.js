@@ -8,7 +8,7 @@ const texteDeuxAng =(
   </>
 );
 
-const texteTroisAng="This allows me to express my creativity while regularly facing new learning experiences."
+const texteTroisAng="This allows me to express my creativity while regularly facing new experiences."
 
 const texteQuatreAng =(
   <>
@@ -31,7 +31,7 @@ const texteDeuxFr =(
   </>
 );
 
-const texteTroisFr="Cela me permet d'exprimer ma créativité tout en faisant régulièrement face à de nouvelles expériences d'apprentissage."
+const texteTroisFr="Cela me permet d'exprimer ma créativité tout en faisant régulièrement face à de nouvelles expériences."
 
 const texteQuatreFr =(
   <>
