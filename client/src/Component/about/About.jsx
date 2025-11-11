@@ -24,6 +24,9 @@ export default function About() {
          <ParaAbout>
           {langue==="anglais"? tabTexteAbout.ang[3] : tabTexteAbout.fr[3]}
         </ParaAbout>
+        <ParaAbout>
+          {langue==="anglais"? tabTexteAbout.ang[4] : tabTexteAbout.fr[4]}
+        </ParaAbout>
       </div>
     </div>
   )

@@ -1,5 +1,5 @@
 const texteUnAng="Front-end developer";
-const texteDeuxAng="I am looking for professional experience";
+const texteDeuxAng="I am looking for a professional experience";
 const texteTroisAng="Open to professional mobility";
 const texteUnFr="Développeur front-end";
 const texteDeuxFr="Je suis à la recherche d'une expérience professionnelle";
