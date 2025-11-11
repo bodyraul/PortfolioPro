@@ -5,6 +5,7 @@ import Navbar from "./Component/nav/Navbar";
 import About from "./Component/about/About";
 import langueContext from './context/LangueContext';
 import { useState } from "react";
+import "./index.css"
 
 function App() {
   const [langue, setlangue] = useState("anglais");
